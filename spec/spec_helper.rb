@@ -1,5 +1,7 @@
-require "bundler/setup"
-require "holdem/helper"
+require 'bundler/setup'
+Dir[File.join(File.dirname(__FILE__), '../lib/holdem_helper/*.rb')].sort.each do |f|
+  require f
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

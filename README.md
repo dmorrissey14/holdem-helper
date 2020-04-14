@@ -9,7 +9,9 @@ Answer a couple questions:
 
 ### Cards are dealt (Pre-Flop), Position
 
-The app will calculate whether you should play this hand or not. It does so based on [Uptown Poker's 8 charts](https://upswingpoker.com/preflop/). With less than 9 people, some of the charts are eliminated, resulting in looser play.
+The app will calculate whether you should play this hand or not based on "Raise First In" principles. This means, if all people before you check or fold, this is a hand you should raise with.  It does so based on [Uptown Poker's 8 charts](https://upswingpoker.com/preflop/). ~With less than 9 people, some of the charts are eliminated, resulting in looser play~(To be implemented).
+
+Consider raising 2.5-4x the minimum bet.
 
 #### What two cards have you been dealt? 
 
